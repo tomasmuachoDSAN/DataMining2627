@@ -1,0 +1,22 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Generated data (re-created by the notebooks)
+data/processed/*
+!data/processed/.gitkeep
+
+# Heavy generated outputs (profiling reports etc.)
+profiling_report*.html

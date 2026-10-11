@@ -1,0 +1,11 @@
+# Normalise line endings across Windows / macOS / Linux
+* text=auto
+*.ipynb text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Never touch these
+*.csv -text
+*.pdf binary
+*.png binary

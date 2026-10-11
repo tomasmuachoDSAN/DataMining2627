@@ -1,0 +1,21 @@
+name: dm2627
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # --- Jupyter / VS Code ---
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  # --- core data stack ---
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn>=0.13.2
+  - plotly            # interactive plots
+  # --- modelling ---
+  - scikit-learn>=1.7.1
+  - minisom>=2.3.0
+  # --- EDA ---
+  - ydata-profiling
